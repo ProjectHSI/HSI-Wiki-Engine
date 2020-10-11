@@ -1,0 +1,30 @@
+{
+  "name": "hsi-wiki-engine",
+  "version": "0.0.1",
+  "description": "A Custom Wiki Engine Using JSON",
+  "main": "./bin/PRGM/program.js",
+  "scripts": {
+    "test": "node ./bin/performtests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHSI/HSI-Wiki-Engine.git"
+  },
+  "keywords": [
+    "HSI",
+    "Wiki",
+    "Engine"
+  ],
+  "bin": {
+    "hwe": "./bin/program.js"
+  },
+  "author": "[Project HSI]",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ProjectHSI/HSI-Wiki-Engine/issues"
+  },
+  "homepage": "https://github.com/ProjectHSI/HSI-Wiki-Engine#readme",
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  }
+}
